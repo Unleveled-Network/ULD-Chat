@@ -62,8 +62,8 @@
 
         <!-- nucleus api -->
         <dependency>
-            <groupId>io.github.nucleuspowered</groupId>
-            <artifactId>nucleus-api</artifactId>
+            <groupId>com.github.NucleusPowered</groupId>
+    	      <artifactId>Nucleus</artifactId>
             <version>2.4.0</version>
             <scope>provided</scope>
         </dependency>
