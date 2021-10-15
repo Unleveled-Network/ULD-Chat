@@ -50,8 +50,8 @@
         </repository>
 
         <repository>
-            <id>nucleus-api</id>
-            <url>http://repo.drnaylor.co.uk/artifactory/list/minecraft</url>
+            <id>jitpack.io</id>
+  		      <url>https://jitpack.io</url>
         </repository>
 
         <!-- Spigot repos -->
