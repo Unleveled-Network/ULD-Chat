@@ -237,6 +237,6 @@
         <module>UltimateChat-Velocity</module>
         <module>UltimateChat-Sponge-56</module>
         <module>UltimateChat-Sponge-7</module>
-        <!--<module>UltimateChat-Sponge-8</module>-->
+        <module>UltimateChat-Sponge-8</module>
     </modules>
 </project>
