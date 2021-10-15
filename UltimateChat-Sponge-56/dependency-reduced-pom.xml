@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>UltimateChat</artifactId>
+    <groupId>br.net.fabiozumbi12.UltimateChat</groupId>
+    <version>1.9.1</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>UltimateChat-Sponge-56</artifactId>
+  <build>
+    <finalName>DONT-DOWNLOAD-SpongeAPI56-Reference</finalName>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>org.spongepowered</groupId>
+      <artifactId>spongeapi</artifactId>
+      <version>5.2.0-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.NucleusPowered</groupId>
+      <artifactId>Nucleus</artifactId>
+      <version>2.4.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>MCClans</groupId>
+      <artifactId>MCClans</artifactId>
+      <version>v1</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/libs/MCClans-1.6.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>com.github.rojo8399</groupId>
+      <artifactId>PlaceholderAPI</artifactId>
+      <version>LATEST</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/libs/PlaceholderAPI-4.4.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>JDALib</groupId>
+      <artifactId>Loader</artifactId>
+      <version>v4.0</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/../UltimateChat-JDA/target/UltimateChat-JDA.jar</systemPath>
+    </dependency>
+  </dependencies>
+  <properties>
+    <spongeVersion>5.2.0-SNAPSHOT</spongeVersion>
+  </properties>
+</project>
+
