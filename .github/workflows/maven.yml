@@ -5,9 +5,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ master ]
+    branches: [ Sponge8 ]
   pull_request:
-    branches: [ master ]
+    branches: [ Sponge8 ]
 
 jobs:
   build:
