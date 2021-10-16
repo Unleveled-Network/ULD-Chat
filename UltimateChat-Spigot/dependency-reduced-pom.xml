@@ -3,7 +3,7 @@
   <parent>
     <artifactId>UltimateChat</artifactId>
     <groupId>br.net.fabiozumbi12.UltimateChat</groupId>
-    <version>1.9.1</version>
+    <version>1.9.2</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>UltimateChat-Spigot</artifactId>
@@ -57,84 +57,24 @@
       <artifactId>placeholderapi</artifactId>
       <version>2.10.9</version>
       <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>annotations</artifactId>
-          <groupId>org.jetbrains</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>net.sacredlabyrinth.phaed.simpleclans</groupId>
       <artifactId>SimpleClans</artifactId>
       <version>2.15.0</version>
       <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>annotations</artifactId>
-          <groupId>org.jetbrains</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>at.pcgamingfreaks</groupId>
       <artifactId>MarriageMaster</artifactId>
-      <version>LATEST</version>
+      <version>2.5</version>
       <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>MarriageMaster-API</artifactId>
-          <groupId>at.pcgamingfreaks</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>MarriageMaster-BackpackIntegration</artifactId>
-          <groupId>at.pcgamingfreaks</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>MarriageMaster-MinepacksV2</artifactId>
-          <groupId>at.pcgamingfreaks</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>MarriageMaster-MinepacksV1</artifactId>
-          <groupId>at.pcgamingfreaks</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>MarriageMaster-MagicValues</artifactId>
-          <groupId>at.pcgamingfreaks</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>PluginLib</artifactId>
-          <groupId>at.pcgamingfreaks</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>BadRabbit-Bukkit</artifactId>
-          <groupId>at.pcgamingfreaks</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>BadRabbit-Bungee</artifactId>
-          <groupId>at.pcgamingfreaks</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>annotations</artifactId>
-          <groupId>org.jetbrains</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>at.pcgamingfreaks</groupId>
       <artifactId>MarriageMaster-API-Bukkit</artifactId>
-      <version>LATEST</version>
+      <version>2.5</version>
       <scope>provided</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>MarriageMaster-API-Common</artifactId>
-          <groupId>at.pcgamingfreaks</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>annotations</artifactId>
-          <groupId>org.jetbrains</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>net.milkbowl.vault</groupId>
@@ -145,13 +85,13 @@
     <dependency>
       <groupId>br.net.fabiozumbi12</groupId>
       <artifactId>TranslationAPI</artifactId>
-      <version>LATEST</version>
+      <version>1.2</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>br.net.fabiozumbi12.UltimateChat</groupId>
       <artifactId>UltimateFancy</artifactId>
-      <version>1.9.1</version>
+      <version>1.9.2</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -187,4 +127,3 @@
     <mineVersion>1.17-R0.1-SNAPSHOT</mineVersion>
   </properties>
 </project>
-

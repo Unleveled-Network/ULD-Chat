@@ -134,7 +134,7 @@
         <dependency>
             <groupId>br.net.fabiozumbi12.UltimateChat</groupId>
             <artifactId>UltimateFancy</artifactId>
-            <version>1.9.1</version>
+            <version>1.9.2</version>
             <scope>provided</scope>
         </dependency>
 

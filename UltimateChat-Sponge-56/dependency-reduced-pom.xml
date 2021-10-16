@@ -3,7 +3,7 @@
   <parent>
     <artifactId>UltimateChat</artifactId>
     <groupId>br.net.fabiozumbi12.UltimateChat</groupId>
-    <version>1.9.1</version>
+    <version>1.9.2</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>UltimateChat-Sponge-56</artifactId>
@@ -33,7 +33,7 @@
     <dependency>
       <groupId>com.github.rojo8399</groupId>
       <artifactId>PlaceholderAPI</artifactId>
-      <version>LATEST</version>
+      <version>4.4</version>
       <scope>system</scope>
       <systemPath>${project.basedir}/libs/PlaceholderAPI-4.4.jar</systemPath>
     </dependency>
@@ -49,4 +49,3 @@
     <spongeVersion>5.2.0-SNAPSHOT</spongeVersion>
   </properties>
 </project>
-
