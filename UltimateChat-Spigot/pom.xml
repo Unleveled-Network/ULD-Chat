@@ -128,7 +128,7 @@
         <dependency>
             <groupId>br.net.fabiozumbi12</groupId>
             <artifactId>TranslationAPI</artifactId>
-            <version>LATEST</version>
+            <version>1.2</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
